@@ -49,7 +49,7 @@ class MockRedis
       'Background saving started'
     end
 
-    def disconnect
+    def disconnect!
       nil
     end
 
